@@ -5,7 +5,6 @@ Feedback to user that connection is unauthorised...<br/>
 ```
 add responder action act_unauthorised respondwith '"HTTP/1.1 403 Forbidden\r\n\r\n" + "The client: " + CLIENT.IP.SRC + " is not authorised to access URL:" + "HTTP.REQ.URL.HTTP_URL_SAFE"'
 ```
-<br/>
 ### 2. Create a DATASET
 Create a data-set for a list of IP Addresse that will be allowed to access the vServer.<br/>
 ```
